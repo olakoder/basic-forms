@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 375px;
+    margin: auto;
+    padding: 0 1em;
+    gap: 0.5em;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 1.5em 1em;
+    box-shadow: 1px 1px 9px black;
+}
+
+h2 {
+    padding-bottom: 0.5em;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+input:focus {
+    outline: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.658);
+    color: white;
+    padding: 0.7em;
+}
+
+.welcome-submitted {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.advert {
+    background-color: rgba(173, 216, 230, 0.301);
+}
+
+.advert-1 {
+    background-color: rgba(211, 211, 211, 0.137); 
+}
+
+.advert-1 p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.logo {
+    border-radius: 10px;
+}
+
+.product {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+}
+
+.product img {
+    width: 25%;
+    height: 100%;
+}
+
+
+.jaggy-advert {
+    width: 500px;
+    text-align: center;
+    /* padding: 5em; */
+}
+
+.jaggy {
+    background-color: rgba(173, 216, 230, 0.203);
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading-advert {
+    width: 60%;
+}
+
+.image {
+    background-color: lightgrey;
+    width: 40%;
+}
+
+.jaggy-advert h3 {
+    background-color: rgb(3, 3, 147);
+    color: white;
+    padding: 0.5em 0;
+}
